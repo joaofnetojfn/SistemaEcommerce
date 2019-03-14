@@ -94,7 +94,7 @@
                                     <th>Pais</th>
                                     <th>Telefone</th>
                                     <th>Fax</th>
-                                    <tr ng-repeat="clienteTabela in cliente | filter:criterio" ng-click="selecione(clienteTabela)"> 
+                                    <tr ng-repeat="clienteTabela in clientes | filter:criterio" ng-click="selecione(clienteTabela)"> 
                                         <td>{{clienteTabela.codigo}}</td>
                                         <td>{{clienteTabela.nome}}</td>
                                         <td>{{clienteTabela.cargo}}</td>
